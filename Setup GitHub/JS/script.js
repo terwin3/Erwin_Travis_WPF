@@ -9,5 +9,5 @@ Sep 30
 
 console.log("Testing the console.log");
 
-var userInput = prompt ("Type in your name:");
+var userInput = prompt ("How are you today?:");
 console.log(userInput);
