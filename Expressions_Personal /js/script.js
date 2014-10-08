@@ -1,4 +1,5 @@
-//Expressions - Personal -
+//Travis Erwin - October 7th, 2014.
+//Expressions - Personal
 // Calculating car's fuel efficiency-MPG
 alert("We\'re going to calculate gas mileage from Nashville to Home.");
 
