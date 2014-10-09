@@ -1,6 +1,6 @@
 //Travis Erwin - October 7th, 2014.
 //Expressions - Personal
-// Calculating car's fuel efficiency-MPG
+// Calculating car's fuel efficien
 alert("We\'re going to calculate gas mileage from two trips.");
 
 var tripA  = prompt("How many miles is your first trip (trip A)?") // tripA defines the first trip
@@ -10,3 +10,4 @@ var mpg = ( tripA - tripB)/gal;
 //console.log(mpg);
 var result = "Your MPG is "  + mpg + " mpg";
 alert(result);
+
