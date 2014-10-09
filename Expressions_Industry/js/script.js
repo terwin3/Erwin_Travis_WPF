@@ -14,3 +14,5 @@ console.log(grossPay);
 //grossPay will be what the check is before taxes.
 
 alert("This is before taxes being taken out");
+var result = "Your check will be" +  grossPay;
+alert(result);
