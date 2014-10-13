@@ -5,7 +5,9 @@ var concertVIP = 400;
 var winConcertVIP = 0;
 //if paycheck is enough for concertVIP print to console "You can go! Have fun!"
 
-if(payCheck < concertVIP )
+if(payCheck < concertVIP  winConcertVIP ){
+    console.log("You can go! Have fun!");
+}
 
 
 
