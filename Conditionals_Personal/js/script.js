@@ -2,7 +2,7 @@
 
 var payCheck = 338;
 var concertVIP = 400;
-var winConcertVIP = free
+var winConcertVIP = 0;
 //if paycheck is enough for concertVIP print to console "You can go! Have fun!"
 
 if(payCheck < concertVIP )
