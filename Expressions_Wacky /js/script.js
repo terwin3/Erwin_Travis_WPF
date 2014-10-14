@@ -1,4 +1,5 @@
-
+/* Travis Erwin - October 14th
+ */
 var preorderCD = prompt("Deciding how much you can spend on a CD preorder. Enter how much the preorder is that you want.");
 
 var payCheck = prompt("Enter how much your check is");
