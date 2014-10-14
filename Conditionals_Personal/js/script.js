@@ -2,10 +2,9 @@
 
 var payCheck = 438;
 var concertVIP = 100;
-var winConcertVIP =  0;
+var winConcertVIP =  0; //Chance to win free VIP
 
-//if paycheck is enough for concertVIP print to console "You can go! Have fun!"
-
+//if paycheck is less than concertVIP print to console "You can't go."
 if(payCheck < concertVIP){
 //Print to console.log You cant go!
     console.log("You can't go.");
@@ -15,6 +14,7 @@ if(payCheck < concertVIP){
     console.log("Good luck at winning!");
 
 }else{
+    //You won!
     console.log("You won, have fun!");
 }
 
