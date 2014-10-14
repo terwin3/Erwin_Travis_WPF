@@ -10,9 +10,9 @@ if(payCheck < concertVIP){
 //You can't go!
     console.log("You can't go.");
 
-}else if(payCheck < winConcertVIP){
+}else if(payCheck > winConcertVIP){
 
-    
+    console.log()
 }
 
 
