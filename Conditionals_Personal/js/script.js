@@ -12,8 +12,7 @@ if(payCheck < concertVIP){
 
 }else if(payCheck > winConcertVIP){
 
-    console.log()
-}
+
 
 
 
