@@ -8,3 +8,8 @@ var result = "You will have " + cost + "remaining from your check";
 alert(result);
 
 
+if(payCheck > preorderCD){
+    console.log("You have enough to order it!");
+}else if(preorderCD > payCheck){
+
+}
