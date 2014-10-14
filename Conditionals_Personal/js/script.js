@@ -7,7 +7,7 @@ var concertVIP = 400;
 
 if(payCheck < concertVIP){
 
-    console.log("You can go! Have fun!");
+    console.log("You can't go.");
 }
 
 
