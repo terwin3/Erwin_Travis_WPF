@@ -11,9 +11,9 @@ if(payCheck < concertVIP){
     console.log("You can't go.");
 
 }else if(payCheck === winConcertVIP){
-    console.log("You can go as long as you win!");
+    console.log("");
 }else{
-    console.log("Go another time");
+    console.log("");
 }
 
 
