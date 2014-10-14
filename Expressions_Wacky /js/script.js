@@ -3,7 +3,7 @@ var preorderCD = prompt("Deciding how much you can spend on a CD preorder. Enter
 
 var payCheck = prompt("Enter how much your check is");
 
-var cost = payCheck - preorderCD;
+var cost = payCheck - preorderCD;//calculates how much check will be after CD order
 var result = "You will have " + cost + "remaining from your check";
 alert(result);
 
