@@ -5,15 +5,15 @@ var payCheck = prompt("Enter how much your check is");
 
 var cost = payCheck - preorderCD;//calculates how much check will be after CD order
 var result = "You will have " + cost + "remaining from your check";
-alert(result);
+alert(result); //Gives result of remaining check
 
 
 
 if(payCheck < preorderCD){
-    console.log("You can have it!");
+    console.log("You can have it!");//you can have the preorder
 
 }else if(payCheck > preorderCD){
-    console.log("You can't have it.");
+    console.log("You can't have it.");//can't have the preorder
 }else{
-    console.log("You'll have to wait until you get enough");
+    console.log("You'll have to wait until you get enough");//not enough to order the preorder
 }
