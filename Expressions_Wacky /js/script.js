@@ -9,7 +9,11 @@ alert(result);
 
 
 if(payCheck > preorderCD){
-    console.log("You have enough to order it!");
+    console.log("You can't order it");
 }else if(preorderCD > payCheck){
+    console.log("You can order it!")
 
-}
+}else{
+    console.log("You need to wait until you have enough money saved")
+
+    }
