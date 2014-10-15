@@ -1,6 +1,11 @@
 /* Created by Travis on 10/15/14. */
-if(time to work <5{
+var timeToWork = 5;
+
+if(timeToWork < 5){
     drive "Warp speed";
-}else if (time to work < 15){
+}else if (timeToWork < 15){
     drive = "fast";
+}else {
+    drive = "speed limit"
 }
+
