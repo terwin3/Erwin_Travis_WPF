@@ -2,6 +2,9 @@
 var timeToWork = prompt("How long does it take to get to work?"); //time to work usually
 var trafficWork = prompt("Enter how long it will take you to get to work with traffic interfering?"); //time to work if there's traffic
 
+var arrival = trafficWork + timeToWork;
+var result = "It will take you" + arrival + "minutes to get to work";
+alert(result);
 if(trafficWork < timeToWork){
 
     console.log("Warp speed");
