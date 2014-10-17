@@ -11,7 +11,7 @@ if(trafficWork > timeToWork){//if traffic to work is more than time to work usua
     //traffic greater Warp Speed
     console.log("Warp speed");
 }else if (timeToWork > trafficWork){//time to work is greater than traffic
-
+    //time to work greater than traffic Normal Speed
     console.log("Normal speed");
 }else{
 
