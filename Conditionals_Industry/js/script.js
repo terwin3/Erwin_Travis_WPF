@@ -3,8 +3,8 @@ var timeToWork = prompt("How long does it take to get to work?"); //time to work
 var trafficWork = prompt("Enter how long it will take you to get to work with traffic interfering"); //time to work if there's traffic
 
 var arrival = Number(trafficWork) + Number(timeToWork);//Adds how long it will take to get to work
-var result = "It will take you " + arrival + " minutes to get to work";
-alert(result);
+var totalTime = "It will take you " + arrival + " minutes to get to work";
+alert(totalTime);
 
 
 if(trafficWork > timeToWork){//if traffic to work is more than time to work usually
