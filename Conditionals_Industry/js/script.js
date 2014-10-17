@@ -5,8 +5,10 @@ var trafficWork = prompt("Enter how long it will take you to get to work with tr
 var arrival = Number(trafficWork) + Number(timeToWork);//Adds how long it will take to get to work
 var result = "It will take you " + arrival + " minutes to get to work";
 alert(result);
-if(trafficWork > timeToWork){//if traffic to work is more than time to work usually
 
+
+if(trafficWork > timeToWork){//if traffic to work is more than time to work usually
+    //traffic greater Warp Speed
     console.log("Warp speed");
 }else if (timeToWork > trafficWork){//time to work is greater than traffic
 
