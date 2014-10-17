@@ -1,8 +1,9 @@
 /* Created by Travis on 10/12/14 */
 
-var payCheck = 438;
-var concertVIP = 100;
+var payCheck = prompt("How much is your check?");//Total of check
+var concertVIP = prompt("How much is the concert VIP ticket?");//VIP cost
 var winConcertVIP =  0; //Chance to win free VIP
+
 
 //if paycheck is less than concertVIP print to console "You can't go."
 if(payCheck < concertVIP){
