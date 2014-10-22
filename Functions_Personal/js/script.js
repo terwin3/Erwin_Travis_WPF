@@ -9,6 +9,12 @@ if(weatherChilly > weatherWarm){
 //wear jeans
     console.log("You should wear jeans tomorrow.");
 
-}else if(weatherChilly === weatherWarm){
-    console.log()
+}else if(weatherChilly < weatherWarm){
+    //
+    console.log("You should wear shorts tomorrow.");
+
+
+}else{
+    //if weather is cold nor warm
+    console.log("Wear what you think is best.");
 }
