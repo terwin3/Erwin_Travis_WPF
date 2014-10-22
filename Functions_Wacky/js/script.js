@@ -5,7 +5,7 @@
 function videoGame(){
     var money = 338.56;
     var videoGame = money - 60;
-    console.log("Video game will take away " + videoGame + " from your check")
+    console.log("You will have " + videoGame + " dollars remaining from your money")
 }
 
 videoGame();
