@@ -22,3 +22,4 @@ if(weatherChilly > weatherWarm){
     //if weather is cold nor warm
     console.log("Wear what you think is best.");
 }
+
