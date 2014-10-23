@@ -10,7 +10,7 @@ if(weatherChilly > weatherWarm){
     console.log("You should wear jeans tomorrow.");
 
 }else if(weatherChilly < weatherWarm){
-    //
+    //wear shorts
     console.log("You should wear shorts tomorrow.");
 
 
